@@ -17,4 +17,4 @@ res8 <-  sapply(split(data_m, col(data_m) + row(data_m)), function(x) str_extrac
 
 vec <- c(unlist(res1), unlist(res2), unlist(res3), unlist(res4), unlist(res5), unlist(res6), unlist(res7), unlist(res8))
 
-
+length(vec)
